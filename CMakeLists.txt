@@ -12,4 +12,8 @@ add_executable(Pena_Gabriel_ExamenCPP
         "Ejercicio 3/funciones.h"
         "Ejercicio 3/funciones.cpp"
         "Ejercicio 3/Notas.h"
-        "Ejercicio 3/Notas.cpp")
+        "Ejercicio 3/Notas.cpp"
+        "Ejercicio 4/Promocion.h"
+        "Ejercicio 4/Promocion.cpp"
+        "Ejercicio 4/Operaciones.h"
+        "Ejercicio 4/Operaciones.cpp")
