@@ -13,7 +13,5 @@ int main(){
     Ejercicio3_Notas();
     Ejercicio4_Promocion();
 
-
-
     return 0;
 }

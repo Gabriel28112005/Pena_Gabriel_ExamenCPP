@@ -4,14 +4,16 @@
 
 #include "Operaciones.h"
 
-float suma1(float precio1, float precio2){
+//Cada función hace la suma de las varibales que pueden tener o no decimales
+
+double suma1(double precio1, double precio2){
     return precio1 + precio2;
 }
 
-float suma2(float precio1, float precio3){
+double suma2(double precio1, double precio3){
     return precio1 + precio3;
 }
 
-float suma3(float precio2, float precio3){
+double suma3(double precio2, double precio3){
     return precio2 + precio3;
 }

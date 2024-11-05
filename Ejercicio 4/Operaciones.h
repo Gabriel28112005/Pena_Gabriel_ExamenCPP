@@ -5,11 +5,11 @@
 #ifndef OPERACIONES_H
 #define OPERACIONES_H
 
-float suma1(float precio1, float precio2);
+double suma1(double precio1, double precio2);
 
-float suma2(float precio1, float precio3);
+double suma2(double precio1, double precio3);
 
-float suma3(float precio2, float precio3);
+double suma3(double precio2, double precio3);
 
 
 #endif //OPERACIONES_H

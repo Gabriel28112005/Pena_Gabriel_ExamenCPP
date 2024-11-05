@@ -14,8 +14,8 @@ void Ejercicio3_Notas(){ //Funcion que se llama en el main.cpp
     float nota_sexta;   //La sexta nota puede tener decimales
     float nota_septima; //La septima nota puede tener decimales
     float nota_octava;  //La octava nota puede tener decimales
-    float nota_promedio = promedio(nota_primera, nota_segunda, nota_tercera, nota_cuarta, nota_quinta, nota_sexta, nota_septima, nota_octava); //Este es el promedio de sus calificiaciones
-
+    float nota_total= nota_primera + nota_segunda + nota_tercera + nota_cuarta + nota_quinta + nota_sexta + nota_septima + nota_octava; //Esta es la suma de las calificaciones
+    float nota_promedio = nota_total/8; //Este es el promedio de las calificaciones obtenidas
     std::cout<<"Dime la nota que has sacado en el primer ejercicio: "<<std::endl;   //El programa nos pregunta la nota que hemos sacado en el primer ejercicio
     std::cin>>nota_primera; //La nota que hemos sacado en el primer ejercicio se guarda en la variable nota_primera
     std::cout<<"Dime la nota que has sacado en el segundo ejercicio: "<<std::endl;  //El programa nos pregunta la nota que hemos sacado en el segundo ejercicio
